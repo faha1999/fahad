@@ -1,0 +1,50 @@
+.skills_container {
+  row-gap: 2rem;
+  padding-top: 1rem;
+
+  .skills_content {
+    background-color: $container-color;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+
+    .skills_title {
+      font-size: $normal-font-size;
+      font-weight: $font-medium;
+      color: $first-color;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .skills_box {
+      display: flex;
+      justify-content: center;
+      column-gap: 2.5rem;
+
+      .skills_group {
+        display: grid;
+        align-content: flex-start;
+        row-gap: 1rem;
+
+        .skills_data {
+          display: flex;
+          column-gap: 0.5rem;
+
+          .bxs-badge-check {
+            font-size: 1rem;
+            color: $first-color;
+          }
+
+          .skills_name {
+            font-size: $normal-font-size;
+            font-weight: $font-medium;
+            line-height: 18px;
+          }
+
+          .skills_level {
+            font-size: $tiny-font-size;
+          }
+        }
+      }
+    }
+  }
+}
