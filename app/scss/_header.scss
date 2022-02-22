@@ -61,3 +61,9 @@
     }
   }
 }
+
+// scroll-header
+.scroll-header {
+  box-shadow: 0 4px 4px hsla($first-hue, $sat, $lig, 0.2);
+  background-color: $body-color;
+}
