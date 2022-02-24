@@ -1,0 +1,32 @@
+.testimonial_container {
+  .testimonial_card {
+    background-color: $container-color;
+    padding: 1.25rem 1.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 3rem;
+
+    .testimonial_img {
+      width: 60px;
+      border-radius: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial_name {
+      font-size: $normal-font-size;
+      font-weight: $font-medium;
+      margin-bottom: 0.25rem;
+    }
+
+    .testimonial_description {
+      font-size: $small-font-size;
+    }
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: $text-color-light;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $first-color;
+}
