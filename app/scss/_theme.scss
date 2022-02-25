@@ -13,4 +13,67 @@ body.light-theme {
   $text-color: hsl($second-hue, 8%, 35%);
   $body-color: hsl($second-hue, 100%, 99%);
   $container-color: #fff;
+
+  background-color: $body-color;
+
+  // SCROLL BAR
+  ::-webkit-scrollbar {
+    background-color: hsl($second-hue, 8%, 66%);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: hsl($second-hue, 8%, 64%);
+
+    &:hover {
+      background-color: hsl($second-hue, 8%, 44%);
+    }
+  }
+
+  .scroll-header {
+    box-shadow: 0 2px 4px hsla(0, 0%, 1%, 0.3);
+  }
+
+  .nav_menu {
+    background-color: hsla($second-hue, 32%, 90%, 0.8);
+  }
+
+  .home_social-icon {
+    box-shadow: 0 2px 8px hsla($second-hue, 48%, 8%, 0.1);
+  }
+
+  .home_social-icon,
+  .home_scroll,
+  .button,
+  .button:hover,
+  .active_work,
+  .footer_title,
+  .footer_link,
+  .footer_copy {
+    color: $title-color;
+  }
+
+  .active-link {
+    color: $title-color;
+  }
+
+  .home_social::after,
+  .footer_social-link {
+    background-color: $title-color;
+  }
+
+  .section_subtitle {
+    color: $text-color;
+  }
+
+  .about_box {
+    box-shadow: 0 2px 4px hsla($second-hue, 48%, 8%, 0.1);
+  }
+
+  .skills_content,
+  .services_card,
+  .work_card,
+  .testimonial_card,
+  .contact_card {
+    box-shadow: 0 2px 16px hsla($second-hue, 48%, 8%, 0.1);
+  }
 }

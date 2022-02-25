@@ -5,6 +5,7 @@
   left: 0;
   z-index: $z-fixed;
   background-color: $body-color;
+  transition: 0.4s;
 }
 
 .nav {
@@ -31,7 +32,7 @@
     padding: 1rem 2.25rem;
     border-radius: 4rem;
     backdrop-filter: blur(10px);
-    transition: 0.3s;
+    transition: 0.4s;
   }
 
   .nav_list {
