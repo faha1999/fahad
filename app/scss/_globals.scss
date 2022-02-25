@@ -109,3 +109,19 @@ button {
   border: 2px solid $first-color;
   color: $first-color;
 }
+
+// SCROLL BAR
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: hsl($second-hue, 8%, 38%);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl($second-hue, 8%, 26%);
+  border-radius: 0.5rem;
+
+  &:hover {
+    background-color: hsl($second-hue, 8%, 20%);
+  }
+}
