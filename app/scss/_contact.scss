@@ -1,0 +1,99 @@
+.contact_container {
+  row-gap: 3rem;
+  padding-bottom: 3rem;
+
+  .contact_title {
+    text-align: center;
+    font-size: $h3-font-size;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact_info {
+    display: grid;
+    gap: 1rem;
+
+    .contact_card {
+      background-color: $container-color;
+      padding: 1rem;
+      border-radius: 0.75rem;
+      text-align: center;
+
+      .contact_card-icon {
+        font-size: 2rem;
+        color: $title-color;
+        margin-bottom: 0.25rem;
+      }
+
+      .contact_card-title,
+      .contact_card-data {
+        font-size: $small-font-size;
+      }
+
+      .contact_card-title {
+        font-weight: $font-medium;
+      }
+
+      .contact_card-data {
+        display: block;
+        margin-bottom: 0.75rem;
+      }
+
+      .contact_button {
+        color: $first-color;
+        font-size: $small-font-size;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 0.25rem;
+
+        i {
+          font-size: 1rem;
+          transition: 0.4s;
+        }
+
+        &:hover i {
+          transform: translateX(0.25rem);
+        }
+      }
+    }
+  }
+
+  .contact_form-div {
+    position: relative;
+    margin-bottom: 2rem;
+    height: 4rem;
+
+    .contact_form-tag {
+      position: absolute;
+      top: -0.75rem;
+      left: 1.75rem;
+      font-size: $small-font-size;
+      padding: 0.25rem;
+      background-color: $body-color;
+      z-index: 10;
+    }
+
+    .contact_form-input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid $text-color-light;
+      background: none;
+      color: $text-color;
+      outline: none;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      z-index: 1;
+    }
+  }
+
+  .contact_form-area {
+    height: 12rem;
+
+    textarea {
+      resize: none;
+    }
+  }
+}
