@@ -132,3 +132,16 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-theme', getCurrentTheme());
   localStorage.setItem('selected-icon', getCurrentIcon());
 });
+
+// scroll reveal
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 400
+  //reset: true
+});
+
+sr.reveal(`.home_data`);
+sr.reveal(`.home_handle`, { delay: 700 });
+sr.reveal(`.home_social, .home_scroll`, { delay: 900, origin: 'bottom' });
