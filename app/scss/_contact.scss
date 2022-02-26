@@ -108,3 +108,11 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width: 767px) {
+  .contact_container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 3rem;
+  }
+}

@@ -76,3 +76,9 @@
     width: 295px;
   }
 }
+
+@media screen and (min-width: 767px) {
+  .work_container {
+    grid-template-columns: repeat(2, max-content);
+  }
+}
