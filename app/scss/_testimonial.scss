@@ -30,3 +30,13 @@
 .swiper-pagination-bullet-active {
   background-color: $first-color;
 }
+
+@media screen and (min-width: 992px) {
+  .testimonial_container {
+    width: 750px;
+  }
+
+  .testimonial_card {
+    padding: 1.5rem 2rem;
+  }
+}

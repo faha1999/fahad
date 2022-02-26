@@ -126,3 +126,14 @@
     padding: 0 3.5rem;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .services_container {
+    grid-template-columns: repeat(3, 193px) !important;
+    column-gap: 3rem;
+  }
+
+  .services_card {
+    padding: 5rem 2rem 1.5rem;
+  }
+}

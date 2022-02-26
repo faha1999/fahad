@@ -45,3 +45,11 @@
     }
   }
 }
+
+@media screen and (min-width: 992px) {
+  .footer_social-link {
+    font-size: 1.25rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+  }
+}

@@ -68,3 +68,10 @@
     padding: 2rem 4rem;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .skills_container {
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 3rem;
+  }
+}

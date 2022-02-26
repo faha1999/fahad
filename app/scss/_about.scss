@@ -59,3 +59,29 @@
     padding: 0 5rem;
   }
 }
+
+@media screen and (min-width: 992px) {
+}
+.about_container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.about_img {
+  width: 350px;
+}
+
+.about_data {
+  text-align: initial;
+}
+
+.about_box {
+  text-align: center;
+  padding: 1rem 1.25rem;
+}
+
+.about_description {
+  padding: 0 4rem 0 0;
+  margin-bottom: 2.5rem;
+}

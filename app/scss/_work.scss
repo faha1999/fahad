@@ -82,3 +82,20 @@
     grid-template-columns: repeat(2, max-content);
   }
 }
+
+@media screen and (min-width: 992px) {
+  .work_container {
+    gap: 3rem;
+  }
+
+  .work_card {
+    padding: 1.25rem;
+  }
+
+  .work_img {
+    margin-bottom: 1rem;
+  }
+  .work_title {
+    margin-bottom: 0.5rem;
+  }
+}

@@ -111,8 +111,14 @@
 
 @media screen and (min-width: 767px) {
   .contact_container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(2, 400px);
     justify-content: center;
     column-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact_container {
+    column-gap: 6rem;
   }
 }

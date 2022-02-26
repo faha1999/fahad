@@ -77,9 +77,22 @@
 
 @media screen and (min-width: 576px) {
   .nav_menu {
-    width: 328px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    width: 328px !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav {
+    height: calc($header-height + 1rem);
+  }
+
+  .footer_social-link {
+    font-size: 1.25rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
   }
 }

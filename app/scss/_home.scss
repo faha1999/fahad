@@ -124,3 +124,27 @@
     width: 130px;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .home_handle {
+    width: 290px;
+    height: 400px;
+  }
+
+  .home_img {
+    width: 220px;
+  }
+
+  .home_social-link {
+    padding: 0.4rem;
+    font-size: 1.25rem;
+  }
+
+  .home_social::after {
+    transform: rotate(90deg) translate(1rem, 0);
+  }
+
+  .home_social-icon {
+    font-size: 2rem;
+  }
+}
