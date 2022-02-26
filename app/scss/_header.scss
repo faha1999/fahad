@@ -74,3 +74,12 @@
     padding: 1rem 1.5rem;
   }
 }
+
+@media screen and (min-width: 576px) {
+  .nav_menu {
+    width: 328px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}

@@ -97,3 +97,14 @@
     }
   }
 }
+
+@media screen and (min-width: 576px) {
+  .contact_info {
+    grid-template-columns: 300px;
+    justify-content: center;
+  }
+  .contact_form {
+    width: 360px;
+    margin: 0 auto;
+  }
+}

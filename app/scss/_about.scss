@@ -48,3 +48,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media screen and (min-width: 576px) {
+  .about_info {
+    grid-template-columns: repeat(3, 140px);
+    justify-content: center;
+  }
+
+  .about_description {
+    padding: 0 5rem;
+  }
+}

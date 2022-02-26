@@ -58,3 +58,13 @@
     font-size: $small-font-size;
   }
 }
+
+@media screen and (min-width: 576px) {
+  .skills_container {
+    justify-content: center;
+  }
+
+  .skills_content {
+    padding: 2rem 4rem;
+  }
+}
