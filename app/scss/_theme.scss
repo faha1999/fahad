@@ -14,31 +14,43 @@ body.light-theme {
   $body-color: hsl($second-hue, 100%, 99%);
   $container-color: #fff;
 
-  background-color: $body-color;
+  background-color: $body-color !important;
+  color: $text-color !important;
 
   // SCROLL BAR
   ::-webkit-scrollbar {
-    background-color: hsl($second-hue, 8%, 66%);
+    background-color: hsl($second-hue, 8%, 66%) !important;
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: hsl($second-hue, 8%, 64%);
+    background-color: hsl($second-hue, 8%, 64%) !important;
 
     &:hover {
-      background-color: hsl($second-hue, 8%, 44%);
+      background-color: hsl($second-hue, 8%, 44%) !important;
     }
   }
 
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $title-color;
+  }
+
+  .button.button--ghost {
+    color: #a395e9 !important;
+  }
+
   .scroll-header {
-    box-shadow: 0 2px 4px hsla(0, 0%, 1%, 0.3);
+    box-shadow: 0 2px 4px hsla(0, 0%, 1%, 0.3) !important;
   }
 
   .nav_menu {
-    background-color: hsla($second-hue, 32%, 90%, 0.8);
+    background-color: hsla($second-hue, 32%, 90%, 0.8) !important;
   }
 
   .home_social-icon {
-    box-shadow: 0 2px 8px hsla($second-hue, 48%, 8%, 0.1);
+    box-shadow: 0 2px 8px hsla($second-hue, 48%, 8%, 0.1) !important;
   }
 
   .home_social-icon,
@@ -49,24 +61,24 @@ body.light-theme {
   .footer_title,
   .footer_link,
   .footer_copy {
-    color: $title-color;
+    color: $title-color !important;
   }
 
   .active-link {
-    color: $title-color;
+    color: $title-color !important;
   }
 
   .home_social::after,
   .footer_social-link {
-    background-color: $title-color;
+    background-color: $title-color !important;
   }
 
   .section_subtitle {
-    color: $text-color;
+    color: $text-color !important;
   }
 
   .about_box {
-    box-shadow: 0 2px 4px hsla($second-hue, 48%, 8%, 0.1);
+    box-shadow: 0 2px 4px hsla($second-hue, 48%, 8%, 0.1) !important;
   }
 
   .skills_content,
@@ -74,6 +86,96 @@ body.light-theme {
   .work_card,
   .testimonial_card,
   .contact_card {
-    box-shadow: 0 2px 16px hsla($second-hue, 48%, 8%, 0.1);
+    box-shadow: 0 2px 16px hsla($second-hue, 48%, 8%, 0.1) !important;
+  }
+
+  .skills_content,
+  .testimonial_card {
+    background-color: $container-color;
+  }
+
+  .about_box {
+    background-color: $container-color !important;
+  }
+
+  .contact_card {
+    background-color: $container-color !important;
+  }
+
+  .contact_form-tag {
+    background-color: $body-color !important;
+  }
+
+  .contact_form-input {
+    color: $text-color !important;
+  }
+
+  .contact_card-icon {
+    color: $title-color !important;
+  }
+
+  .footer_title,
+  .footer_link {
+    color: $body-color !important;
+  }
+
+  .footer_social-link {
+    background-color: $body-color !important;
+  }
+
+  .footer_copy {
+    color: $container-color !important;
+  }
+
+  .button {
+    color: $body-color !important;
+
+    &:hover {
+      color: $body-color !important;
+    }
+  }
+
+  .nav_link {
+    color: $text-color !important;
+  }
+
+  .header {
+    background-color: $body-color;
+  }
+
+  .scroll-header {
+    background-color: $body-color !important;
+  }
+
+  .home_social-icon {
+    background-color: $container-color !important;
+  }
+
+  .home_greeting {
+    color: $text-color !important;
+  }
+
+  .home_description {
+    color: $text-color !important;
+  }
+
+  .services_modal-content {
+    background-color: $body-color !important;
+  }
+
+  .services_card {
+    background-color: $container-color !important;
+  }
+
+  .work_card {
+    background-color: $container-color !important;
+  }
+
+  .work_item {
+    color: $title-color;
+
+    &.active-work {
+      color: $body-color;
+    }
   }
 }
