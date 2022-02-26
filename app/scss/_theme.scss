@@ -38,7 +38,7 @@ body.light-theme {
   }
 
   .button.button--ghost {
-    color: #a395e9 !important;
+    color: hsl($first-hue, $sat, $lig) !important;
   }
 
   .scroll-header {
@@ -61,7 +61,7 @@ body.light-theme {
   .footer_title,
   .footer_link,
   .footer_copy {
-    color: $title-color !important;
+    color: hsl($first-hue, $sat, $lig) !important;
   }
 
   .active-link {
@@ -70,7 +70,7 @@ body.light-theme {
 
   .home_social::after,
   .footer_social-link {
-    background-color: $title-color !important;
+    background-color: hsl($first-hue, $sat, $lig) !important;
   }
 
   .section_subtitle {
