@@ -68,3 +68,9 @@
   box-shadow: 0 4px 4px hsla($first-hue, $sat, $lig, 0.2);
   background-color: $body-color;
 }
+
+@media screen and (max-width: 320px) {
+  .nav_menu {
+    padding: 1rem 1.5rem;
+  }
+}

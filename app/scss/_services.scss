@@ -103,3 +103,10 @@
     }
   }
 }
+
+@media screen and (max-width: 320px) {
+  .services_container {
+    grid-template-columns: 145px;
+    justify-content: center;
+  }
+}

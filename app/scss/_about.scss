@@ -42,3 +42,9 @@
     }
   }
 }
+
+@media screen and (max-width: 320px) {
+  .about_info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

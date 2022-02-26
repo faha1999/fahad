@@ -109,3 +109,18 @@
     position: absolute;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .home_button {
+    flex-direction: column;
+  }
+
+  .home_handle {
+    width: 150px;
+    height: 253px;
+  }
+
+  .home_img {
+    width: 130px;
+  }
+}
